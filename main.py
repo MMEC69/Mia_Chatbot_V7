@@ -174,6 +174,7 @@ def application_msg_parser(user_input):
             api_key = "3e826e0f9e9479c77abab338620624bd"
             base_url = "https://api.openweathermap.org/data/2.5/weather?"
             speak("what is the city name")
+            #city_name = input()
             city_name = takeCommand()
             complete_url = base_url + "appid=" + api_key + "&q=" + city_name
             response = requests.get(complete_url)
