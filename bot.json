@@ -6,6 +6,18 @@
     "required_words": []
   },
   {
+    "response_type": "acceptance_1",
+    "user_input": ["yes", "yeah", "okay", "of", "course"],
+    "bot_response": "Nice, so what's next darling?",
+    "required_words": []
+  },
+  {
+    "response_type": "acceptance_2",
+    "user_input": ["no", "nope", "na", "nah"],
+    "bot_response": "I am sorry, if you are not satisfied with me darling you can spell 'search' to search on the internet.",
+    "required_words": []
+  },
+  {
     "response_type": "greeting",
     "user_input": ["see you", "goodbye", "bye"],
     "bot_response": "See you later!",
@@ -67,14 +79,14 @@
   },
   {
     "response_type": "time",
-    "user_input": ["time", "tell me the time", "can you tell me the time", "i want to know what time is it"],
-    "bot_response": "time",
+    "user_input": ["time", "tell", "me", "the", "can", "you", "i",  "want", "to", "know", "what", "is", "it"],
+    "bot_response": "current time",
     "required_words": ["time"]
   },
   {
     "response_type": "search",
-    "user_input": ["search", "search about", "search for", "can you search"],
-    "bot_response": "search",
+    "user_input": ["search", "about", "for", "can", "you"],
+    "bot_response": "search_this_69",
     "required_words": ["search"]
   },
   {
@@ -311,5 +323,521 @@
     "user_input": ["what", "is","are", "you", "passion", "about"],
     "bot_response": "You guys actually, I don't know what to do if it's not for you guys, You are my life and I'll do anything to protect you from any harm",
     "required_words": ["passion"]
+  },
+  {
+    "response_type": "philosophy_love_1",
+    "user_input": ["what", "is","love", "are"],
+    "bot_response": "let me think, ummmmm love is a complex and deep emotional connection and affection that exists between people. It involves caring, understanding, and accepting someone for who they are.",
+    "required_words": ["what", "love"]
+  },
+  {
+    "response_type": "philosophy_love_2",
+    "user_input": ["can", "love","change", "over", "time"],
+    "bot_response": "Yeah, it can change over time. It may get deeper and grow stronger as the bond between two people strengthens. but sadly the exact opposite exits as well, it can also evolve or fade depending on various factors and circumstances.",
+    "required_words": ["love", "change"]
+  },
+   {
+    "response_type": "philosophy_love_3",
+    "user_input": ["can", "love","be", "one", "sided"],
+    "bot_response": "Yes, it can be one-sided sometimes, when one loves the other who doesn't feel the same way. It can be challenging at sometimes, it can be also painful for the one with unrequited love.",
+    "required_words": ["love", "one", "sided"]
+  },
+   {
+    "response_type": "education1_1",
+    "user_input": ["what", "is","a", "degree", "in", "academic"],
+    "bot_response": "A degree is an academic qualification awarded by a college or university upon the completion of a specific course of study in a particular field.",
+    "required_words": ["academic", "degree"]
+  },
+  {
+    "response_type": "education1_2",
+    "user_input": ["what", "is","a", "degree", "in", "academics"],
+    "bot_response": "A degree is an academic qualification awarded by a college or university upon the completion of a specific course of study in a particular field.",
+    "required_words": ["academics", "degree"]
+  },
+  {
+    "response_type": "education2",
+    "user_input": ["why", "a","degree", "is", "important"],
+    "bot_response": "Because it signifies a level of knowledge and expertise in a specific field. It can enhance career prospects, open up job opportunities, and provide a foundation for further education or specialized training.",
+    "required_words": ["degree", "important"]
+  },
+  {
+    "response_type": "education3_1",
+    "user_input": ["how", "long", "does", "it", "take", "for", "a", "degree", "to", "complete", "duration"],
+    "bot_response": "The duration to earn a degree can vary depending on the level and type the of degree. Bachelor's degrees typically take around 3 to 4 years, master's degrees take 1 to 2 years, and doctoral degrees can take several years of additional study.",
+    "required_words": ["how", "long", "degree"]
+  },
+  {
+    "response_type": "education3_2",
+    "user_input": ["the", "long", "does", "it", "take", "for", "a", "degree", "to", "complete", "duration"],
+    "bot_response": "The duration to earn a degree can vary depending on the level and type the of degree. Bachelor's degrees typically take around 3 to 4 years, master's degrees take 1 to 2 years, and doctoral degrees can take several years of additional study.",
+    "required_words": ["duration", "degree"]
+  },
+  {
+    "response_type": "education4",
+    "user_input": ["what", "are", "the", "different", "types", "of", "degree", "degrees"],
+    "bot_response": "The duration to earn a degree can vary depending on the level and type the of degree. Bachelor's degrees typically take around 3 to 4 years, master's degrees take 1 to 2 years, and doctoral degrees can take several years of additional study.",
+    "required_words": ["duration", "degree"]
+  },
+  {
+    "response_type": "education5_1",
+    "user_input": ["what", "are", "different", "types", "of", "degree", "degrees"],
+    "bot_response": "There are several types of degrees, \nincluding associate degrees, bachelor's degrees, master's degrees, and doctoral degrees. \nEach level signifies a different level of education and specialization.",
+    "required_words": ["types", "degree"]
+  },
+  {
+    "response_type": "education5_2",
+    "user_input": ["what", "are", "different", "type", "of", "degree", "degrees"],
+    "bot_response": "There are several types of degrees, \nincluding associate degrees, bachelor's degrees, master's degrees, and doctoral degrees. \nEach level signifies a different level of education and specialization.",
+    "required_words": ["type", "degree"]
+  },
+  {
+    "response_type": "education5_3",
+    "user_input": ["what", "are", "different", "types", "of", "degree"],
+    "bot_response": "There are several types of degrees, \nincluding associate degrees, bachelor's degrees, master's degrees, and doctoral degrees. \nEach level signifies a different level of education and specialization.",
+    "required_words": ["types", "degrees"]
+  },
+  {
+    "response_type": "education5_4",
+    "user_input": ["what", "are", "different", "type", "of", "degrees"],
+    "bot_response": "There are several types of degrees, \nincluding associate degrees, bachelor's degrees, master's degrees, and doctoral degrees. \nEach level signifies a different level of education and specialization.",
+    "required_words": ["type", "degrees"]
+  },
+  {
+    "response_type": "education6_1",
+    "user_input": ["how","to", "do", "you", "choose", "right", "the", "degree"],
+    "bot_response": "It involves consideration of your interests, career goals, and the necessary skills and knowledge you wish to acquire. \nResearching different fields of study, consulting with advisors, and considering job market demand can help in making an most effective decision.",
+    "required_words": ["choose", "degree"]
+  },
+  {
+    "response_type": "education6_1",
+    "user_input": ["how", "to", "do", "you", "choose", "right", "the", "degrees"],
+    "bot_response": "It involves consideration of your interests, career goals, and the necessary skills and knowledge you wish to acquire. \nResearching different fields of study, consulting with advisors, and considering job market demand can help in making an most effective decision.",
+    "required_words": ["choose", "degrees"]
+  },
+  {
+    "response_type": "education6_1",
+    "user_input": ["how", "do", "to", "you", "choose", "right", "the", "degrees"],
+    "bot_response": "It involves consideration of your interests, career goals, and the necessary skills and knowledge you wish to acquire. \nResearching different fields of study, consulting with advisors, and considering job market demand can help in making an most effective decision.",
+    "required_words": ["choose", "degrees"]
+  },
+  {
+    "response_type": "education7_1",
+    "user_input": ["what", "is", "the", "difference", "between", "graduate", "and", "undergraduate", "degree", "of"],
+    "bot_response": "An undergraduate degree, such as a bachelor's degree, is typically the first level of post-secondary education obtained after completing high school. \nA graduate degree, such as a master's or doctoral degree, is pursued after completing an undergraduate degree and provides advanced specialization in a specific field.",
+    "required_words": ["difference", "graduate", "undergraduate", "degree"]
+  },
+  {
+    "response_type": "education7_2",
+    "user_input": ["what", "is", "the", "difference", "between", "graduate", "and", "undergraduate", "degrees"],
+    "bot_response": "It involves consideration of your interests, career goals, and the necessary skills and knowledge you wish to acquire. \nResearching different fields of study, consulting with advisors, and considering job market demand can help in making an most effective decision.",
+    "required_words": ["difference", "graduate", "undergraduate", "degrees"]
+  },
+  {
+    "response_type": "education8_1",
+    "user_input": ["what", "who", "is", "the", "a", "an", "undergraduate"],
+    "bot_response": "An undergraduate refers to a student who is pursuing their first level of formal education after completing high school. \nIt usually involves completing a bachelor's degree at a college or university.",
+    "required_words": ["what", "undergraduate"]
+  },
+  {
+    "response_type": "education8_2",
+    "user_input": ["what", "who", "is", "the", "a", "an", "graduate"],
+    "bot_response": "Graduate education refers to the level of study that comes after completing an undergraduate degree.\nIt involves pursuing advanced studies in a specific field or discipline, such as obtaining a master's or doctoral degree. This allows students to deepen their knowledge and expertise in a particular area.",
+    "required_words": ["what", "graduate"]
+  },
+  {
+    "response_type": "education8_3",
+    "user_input": ["what", "is", "the", "difference", "between", "graduate", "and", "undergraduate"],
+    "bot_response": "Undergraduate and graduate education lies in the level of study, specialization, and depth of knowledge acquired. Undergraduate education is the initial level, typically leading to a bachelor's degree, while graduate education involves advanced study beyond the bachelor's level, leading to master's or doctoral degrees. I hope you got the point",
+    "required_words": ["difference", "graduate", "undergraduate"]
+  },
+  {
+    "response_type": "job4",
+    "user_input": ["can", "you", "get", "a", "job", "without", "the", "degree"],
+    "bot_response": "Yah, it is possible but it depends on the industry and the specific job requirements. \nBut certain professions and career paths require a degree as entry requirement.",
+    "required_words": ["without", "job", "degree"]
+  },
+  {
+    "response_type": "job5_1",
+    "user_input": ["can", "a", "degree", "guarantee", "job"],
+    "bot_response": "While a degree can enhance job prospects, it does not guarantee employment. \nFactors such as job market conditions, industry demand, skills, experience, and networking also play a significant role in securing employment.\n",
+    "required_words": ["guarantee", "job", "degree"]
+  },
+  {
+    "response_type": "job5_2",
+    "user_input": ["can", "a", "degrees", "guarantee", "job"],
+    "bot_response": "While a degree can enhance job prospects, it does not guarantee employment. \nFactors such as job market conditions, industry demand, skills, experience, and networking also play a significant role in securing employment.\n",
+    "required_words": ["guarantee", "job", "degrees"]
+  },
+  {
+    "response_type": "job6_1",
+    "user_input": ["can", "you", "change", "a", "career", "with", "in", "different", "degree", "fields"],
+    "bot_response": "Yes, it is possible to change careers with a degree in a different field. \nTransferable skills, additional training, and a demonstration of relevant experience can help in transitioning to a new career.",
+    "required_words": ["change", "job", "degree"]
+  },
+  {
+    "response_type": "job6_2",
+    "user_input": ["can", "you", "change", "a", "career", "with", "in", "different", "degrees", "fields"],
+    "bot_response": "Yes, it is possible to change careers with a degree in a different field. \nTransferable skills, additional training, and a demonstration of relevant experience can help in transitioning to a new career.",
+    "required_words": ["change", "job", "degrees"]
+  },
+  {
+    "response_type": "job6_3",
+    "user_input": ["can", "you", "change", "a", "career", "with", "in", "different", "degree", "fields"],
+    "bot_response": "Yes, it is possible to change careers with a degree in a different field. \nTransferable skills, additional training, and a demonstration of relevant experience can help in transitioning to a new career.",
+    "required_words": ["change", "field", "degree"]
+  },
+  {
+    "response_type": "job7_1",
+    "user_input": ["can", "you", "change", "a", "career", "with", "in", "different", "degree", "fields"],
+    "bot_response": "Yes, it is possible to change careers with a degree in a different field. \nTransferable skills, additional training, and a demonstration of relevant experience can help in transitioning to a new career.",
+    "required_words": ["change", "field", "degree"]
+  },
+  {
+    "response_type": "job7_2",
+    "user_input": ["can", "you", "change", "a", "career", "with", "in", "different", "degree", "fields"],
+    "bot_response": "Yes, it is possible to change careers with a degree in a different field. \nTransferable skills, additional training, and a demonstration of relevant experience can help in transitioning to a new career.",
+    "required_words": ["change", "field", "degrees"]
+  },
+  {
+    "response_type": "job7_3",
+    "user_input": ["can", "you", "change", "a", "career", "with", "in", "different", "degree", "fields"],
+    "bot_response": "Yes, it is possible to change careers with a degree in a different field. \nTransferable skills, additional training, and a demonstration of relevant experience can help in transitioning to a new career.",
+    "required_words": ["change", "job", "degree"]
+  },
+  {
+    "response_type": "job7_4",
+    "user_input": ["can", "you", "change", "a", "career", "with", "in", "different", "degree", "fields"],
+    "bot_response": "Yes, it is possible to change careers with a degree in a different field. \nTransferable skills, additional training, and a demonstration of relevant experience can help in transitioning to a new career.",
+    "required_words": ["change", "job", "degrees"]
+  },
+  {
+    "response_type": "job8",
+    "user_input": ["how", "does", "earning", "a", "degree", "contribute", "to", "personal", "growth"],
+    "bot_response": "Earning a degree contributes to personal growth by expanding knowledge, critical thinking abilities, and problem-solving skills. It also fosters personal development, self-discipline, and a sense of achievement.\n",
+    "required_words": ["degree", "contribute", "growth"]
+  },
+  {
+    "response_type": "job8",
+    "user_input": ["how", "does", "earning", "a", "degree", "contribute", "to", "personal", "growth"],
+    "bot_response": "Earning a degree contributes to personal growth by expanding knowledge, critical thinking abilities, and problem-solving skills. It also fosters personal development, self-discipline, and a sense of achievement.\n",
+    "required_words": ["degrees", "contribute", "growth"]
+  },
+  {
+    "response_type": "cinec1_1",
+    "user_input": ["how", "many", "faculties", "in", "cinec", "campus", "no", "number", "of"],
+    "bot_response": "There are in total 6 faculties.",
+    "required_words": ["how", "many", "faculties", "cinec"]
+  },
+  {
+    "response_type": "cinec1_2",
+    "user_input": ["how", "many", "faculties", "in", "cinec", "campus", "no", "number", "of", "faculty"],
+    "bot_response": "There are in total 6 faculties.",
+    "required_words": ["how", "many", "faculty", "cinec"]
+  },
+  {
+    "response_type": "cinec1_3",
+    "user_input": ["how", "many", "faculties", "in", "cinec", "campus", "no", "number", "of"],
+    "bot_response": "There are in total 6 faculties.",
+    "required_words": ["number", "of", "faculties", "cinec"]
+  },
+  {
+    "response_type": "cinec1_4",
+    "user_input": ["how", "many", "faculties", "in", "cinec", "campus", "no", "number", "of"],
+    "bot_response": "There are in total 6 faculties.",
+    "required_words": ["number", "of", "faculty", "cinec"]
+  },
+  {
+    "response_type": "cinec1_5",
+    "user_input": ["how", "many", "faculties", "in", "cinec", "campus", "no", "number", "of"],
+    "bot_response": "There are in total 6 faculties.",
+    "required_words": ["no", "of", "faculties", "cinec"]
+  },
+  {
+    "response_type": "cinec1_6",
+    "user_input": ["how", "many", "faculties", "in", "cinec", "campus", "no", "number", "of"],
+    "bot_response": "There are in total 6 faculties.",
+    "required_words": ["no", "of", "faculty", "cinec"]
+  },
+  {
+    "response_type": "cinec2_1",
+    "user_input": ["what", "are", "they"],
+    "bot_response": "They are, \n1. FACULTY OF MARITIME SCIENCES \n2. FACULTY OF MARINE ENGINEERING \n3. FACULTY OF ENGINEERING AND TECHNOLOGY \n4. FACULTY OF MANAGEMENT AND SOCIAL SCIENCES \n5. FACULTY OF HEALTH SCIENCES \n6. FACULTY OF HUMANITIES AND EDUCATION \nAnd that's all.",
+    "required_words": ["what", "are", "they"]
+  },
+  {
+    "response_type": "cinec2_2",
+    "user_input": ["what", "are", "them"],
+    "bot_response": "They are, \n1. FACULTY OF MARITIME SCIENCES \n2. FACULTY OF MARINE ENGINEERING \n3. FACULTY OF ENGINEERING AND TECHNOLOGY \n4. FACULTY OF MANAGEMENT AND SOCIAL SCIENCES \n5. FACULTY OF HEALTH SCIENCES \n6. FACULTY OF HUMANITIES AND EDUCATION \nAnd that's all.",
+    "required_words": ["what", "are", "them"]
+  },
+  {
+    "response_type": "cinec2_3",
+    "user_input": ["what", "are", "the", "faculty", "in", "cinec", "campus"],
+    "bot_response": "They are, \n1. FACULTY OF MARITIME SCIENCES \n2. FACULTY OF MARINE ENGINEERING \n3. FACULTY OF ENGINEERING AND TECHNOLOGY \n4. FACULTY OF MANAGEMENT AND SOCIAL SCIENCES \n5. FACULTY OF HEALTH SCIENCES \n6. FACULTY OF HUMANITIES AND EDUCATION \nAnd that's all.",
+    "required_words": ["faculty", "cinec", "in"]
+  },
+  {
+    "response_type": "cinec2_4",
+    "user_input": ["what", "are", "the", "faculties", "in", "cinec", "campus"],
+    "bot_response": "They are, \n1. FACULTY OF MARITIME SCIENCES \n2. FACULTY OF MARINE ENGINEERING \n3. FACULTY OF ENGINEERING AND TECHNOLOGY \n4. FACULTY OF MANAGEMENT AND SOCIAL SCIENCES \n5. FACULTY OF HEALTH SCIENCES \n6. FACULTY OF HUMANITIES AND EDUCATION \nAnd that's all.",
+    "required_words": ["faculties", "cinec", "in"]
+  },
+  {
+    "response_type": "cinec3_1",
+    "user_input": ["when", "was", "cinec", "campus", "established", "started", "did", "start", "begin", "began"],
+    "bot_response": "CINEC Campus was established in 1990.",
+    "required_words": ["established", "cinec"]
+  },
+  {
+    "response_type": "cinec3_2",
+    "user_input": ["when", "was", "cinec", "campus", "established", "started", "did", "start", "begin", "began"],
+    "bot_response": "CINEC Campus began it's journey since 1990.",
+    "required_words": ["began", "cinec"]
+  },
+  {
+    "response_type": "cinec3_3",
+    "user_input": ["when", "was", "cinec", "campus", "established", "started", "did", "start", "begin", "began", "establish"],
+    "bot_response": "CINEC Campus was established in 1990.",
+    "required_words": ["cinec", "establish"]
+  },
+  {
+    "response_type": "cinec3_4",
+    "user_input": ["when", "was", "cinec", "campus", "established", "started", "did", "start", "begin", "began", "establish"],
+    "bot_response": "CINEC Campus was established in 1990.",
+    "required_words": ["cinec", "begin"]
+  },
+  {
+    "response_type": "cinec3_5",
+    "user_input": ["when", "was", "cinec", "campus", "established", "started", "did", "start", "begin", "began", "establish"],
+    "bot_response": "CINEC Campus was established in 1990.",
+    "required_words": ["cinec", "start"]
+  },
+  {
+    "response_type": "cinec3_6",
+    "user_input": ["when", "was", "cinec", "campus", "established", "started", "did", "start", "begin", "began", "establish"],
+    "bot_response": "CINEC Campus was established in 1990.",
+    "required_words": ["cinec", "started"]
+  },
+  {
+    "response_type": "cinec3_7",
+    "user_input": ["when", "was", "cinec", "campus", "starting", "did", "point", "begin", "began", "establish"],
+    "bot_response": "CINEC Campus was established in 1990.",
+    "required_words": ["cinec", "starting", "point"]
+  },
+  {
+    "response_type": "cinec3_7",
+    "user_input": ["when", "was", "cinec", "campus", "starting", "did", "point", "begin", "began", "establish"],
+    "bot_response": "CINEC Campus was established in 1990.",
+    "required_words": ["cinec", "startingpoint"]
+  },
+  {
+    "response_type": "cinec4_1",
+    "user_input": ["where", "is", "cinec", "located", "are"],
+    "bot_response": "CINEC Campus is located in Malabe, a suburb of Colombo, Sri Lanka.",
+    "required_words": ["located", "cinec"]
+  },
+  {
+    "response_type": "cinec4_2",
+    "user_input": ["where", "is", "cinec", "are", "situated"],
+    "bot_response": "CINEC Campus is located in Malabe, a suburb of Colombo, Sri Lanka.",
+    "required_words": ["situated", "cinec"]
+  },
+  {
+    "response_type": "cinec4_3",
+    "user_input": ["where", "is", "cinec", "located", "are", "situated", "place", "where"],
+    "bot_response": "CINEC Campus is located in Malabe, a suburb of Colombo, Sri Lanka.",
+    "required_words": ["place", "cinec"]
+  },
+  {
+    "response_type": "cinec5_1",
+    "user_input": ["how", "many", "students", "cinec", "cater", "annually"],
+    "bot_response": "CINEC caters to over 21,000 registered students annually.",
+    "required_words": ["cinec", "cater", "annually"]
+  },
+  {
+    "response_type": "cinec5_1",
+    "user_input": ["how", "many", "students", "cinec", "caters", "annually"],
+    "bot_response": "CINEC caters to over 21,000 registered students annually.",
+    "required_words": ["cinec", "caters", "annually"]
+  },
+  {
+    "response_type": "cinec5_2",
+    "user_input": ["how", "many", "students", "cinec", "takes", "annually"],
+    "bot_response": "CINEC takes to over 21,000 registered students annually.",
+    "required_words": ["cinec", "takes", "annually"]
+  },
+  {
+    "response_type": "cinec5_2",
+    "user_input": ["how", "many", "students", "cinec", "take", "annually"],
+    "bot_response": "CINEC takes to over 21,000 registered students annually.",
+    "required_words": ["cinec", "take", "annually"]
+  },
+  {
+    "response_type": "cinec6_1",
+    "user_input": ["how", "many", "different", "programs", "cinec", "offer", "has", "give", "gives"],
+    "bot_response": "CINEC offers approximately 210 different Certificate from Diploma to Higher Diploma, Graduate, Postgraduate, and Doctoral programs.",
+    "required_words": ["programs", "cinec"]
+  },
+  {
+    "response_type": "cinec6_2",
+    "user_input": ["how", "many", "different", "course", "cinec", "offer", "give", "gives"],
+    "bot_response": "CINEC offers approximately 210 different Certificate from Diploma to Higher Diploma, Graduate, Postgraduate, and Doctoral programs.",
+    "required_words": ["course", "cinec"]
+  },
+  {
+    "response_type": "cinec6_3",
+    "user_input": ["how", "many", "different", "courses", "cinec", "offer", "give", "gives"],
+    "bot_response": "CINEC offers approximately 210 different Certificate from Diploma to Higher Diploma, Graduate, Postgraduate, and Doctoral programs.",
+    "required_words": ["courses", "cinec"]
+  },
+  {
+    "response_type": "cinec6_3",
+    "user_input": ["no", "number", "of", "programs", "cinec", "offers", "gives", "has", "have", "give", "provide", "provides"],
+    "bot_response": "CINEC offers approximately 210 different Certificate from Diploma to Higher Diploma, Graduate, Postgraduate, and Doctoral programs.",
+    "required_words": ["programs", "cinec"]
+  },
+  {
+    "response_type": "cinec6_3",
+    "user_input": ["no", "number", "of", "program", "cinec", "offers", "gives", "has", "have", "give", "provide", "provides"],
+    "bot_response": "CINEC offers approximately 210 different Certificate from Diploma to Higher Diploma, Graduate, Postgraduate, and Doctoral programs.",
+    "required_words": ["program", "cinec"]
+  },
+  {
+    "response_type": "cinec6_3",
+    "user_input": ["no", "number","of", "course", "cinec", "offers", "gives", "has", "have", "give", "provide", "provides"],
+    "bot_response": "CINEC offers approximately 210 different Certificate from Diploma to Higher Diploma, Graduate, Postgraduate, and Doctoral programs.",
+    "required_words": ["courses", "cinec"]
+  },
+  {
+    "response_type": "cinec6_3",
+    "user_input": ["no", "number","of", "course", "cinec", "offers", "gives", "has", "have", "give", "provide", "provides"],
+    "bot_response": "CINEC offers approximately 210 different Certificate from Diploma to Higher Diploma, Graduate, Postgraduate, and Doctoral programs.",
+    "required_words": ["course", "cinec"]
+  },
+  {
+    "response_type": "cinec7_1",
+    "user_input": ["Which", "governmental", "bodies", "approve", "the", "programs", "offered", "by", "cinec"],
+    "bot_response": "The programs offered by CINEC are approved by the Government of Sri Lanka and universities in Australia, China, Germany, UK, USA, and TAFE College in Australia.",
+    "required_words": ["governmental", "cinec", "approve"]
+  },
+  {
+    "response_type": "cinec7_2",
+    "user_input": ["Which", "government", "bodies", "approve", "the", "programs", "offered", "by", "cinec"],
+    "bot_response": "The programs offered by CINEC are approved by the Government of Sri Lanka and universities in Australia, China, Germany, UK, USA, and TAFE College in Australia.",
+    "required_words": ["government", "cinec", "approve"]
+  },
+  {
+    "response_type": "cinec8_1",
+    "user_input": ["which", "regions", "of", "Sri", "Lanka", "does", "cinec", "have", "has", "branches", "branch"],
+    "bot_response": "CINEC has branches in the Northern and Eastern capitals of Sri Lanka, as well as in a Colombo suburb.",
+    "required_words": ["branches", "cinec"]
+  },
+  {
+    "response_type": "cinec8_2",
+    "user_input": ["which", "regions", "of", "Sri", "Lanka", "does", "cinec", "have", "has", "branches", "branch"],
+    "bot_response": "CINEC has branches in the Northern and Eastern capitals of Sri Lanka, as well as in a Colombo suburb.",
+    "required_words": ["branche", "cinec"]
+  },
+  {
+    "response_type": "cinec9_1",
+    "user_input": ["Apart", "from", "Sri", "Lanka", "which", "countries", "have", "their", "State", "maritime", "institutes", "managed", "by", "cinec", "manage"],
+    "bot_response": "CINEC manages State Maritime Institutes in Seychelles and Fiji.",
+    "required_words": ["maritime", "cinec", "manage"]
+  },
+  {
+    "response_type": "cinec9_2",
+    "user_input": ["Apart", "from", "Sri", "Lanka", "which", "countries", "have", "their", "State", "maritime", "institutes", "managed", "by", "cinec", "manages"],
+    "bot_response": "CINEC manages State Maritime Institutes in Seychelles and Fiji.",
+    "required_words": ["maritime", "cinec", "manages"]
+  },
+  {
+    "response_type": "cinec10_1",
+    "user_input": ["What", "is", "the", "aim", "of", "managing", "the", "State", "Maritime", "Institutes", "in", "seychelles", "and", "fiji"],
+    "bot_response": "The aim is to upgrade them to international standards and recognition.",
+    "required_words": ["aim", "cinec", "maritime", "manage"]
+  },
+  {
+    "response_type": "cinec11_1",
+    "user_input": ["What", "are", "which", "fields", "of", "study", "does", "cinec", "offer"],
+    "bot_response": "CINEC offers fields of study such as Maritime Science, Marine Engineering, Engineering and Technology, Health Sciences, Aircraft Maintenance Engineering, IT, Logistics, International Transportation, Management, Marketing and Branding, Tourism and Hospitality, Law, HR, English Language and Education, Banking and Finance, Sports and Physical Education, and Vocational Training.",
+    "required_words": ["fields", "cinec"]
+  },
+  {
+    "response_type": "cinec12_1",
+    "user_input": ["Which", "industries", "have", "established", "their", "research", "and", "training", "centers", "at", "cinec", "campus", "workwith", "work"],
+    "bot_response": "MAS Holdings, Brandix, and Orange Electrical-Orel Corporation, which are among the largest apparel and electrical manufacturing companies in Sri Lanka, have established their research and training centers at CINEC Campus.\n",
+    "required_words": ["industry", "cinec", "work"]
+  },
+  {
+    "response_type": "cinec12_2",
+    "user_input": ["Which", "industries", "have", "established", "their", "research", "and", "training", "centers", "at", "cinec", "campus", "workswith", "works"],
+    "bot_response": "MAS Holdings, Brandix, and Orange Electrical-Orel Corporation, which are among the largest apparel and electrical manufacturing companies in Sri Lanka, have established their research and training centers at CINEC Campus.\n",
+    "required_words": ["industry", "cinec", "works"]
+  },
+  {
+    "response_type": "cinec13_1",
+    "user_input": ["What", "which", "kind", "of", "facilities", "does", "cinec", "Campus", "have", "has"],
+    "bot_response": "CINEC Campus is equipped with state-of-the-art classroom facilities, advanced laboratory facilities, technical workshops, ship-in-campus, Learjet aircraft, and ship handling and engine room simulators. It also has residential facilities, a cafeteria, a swimming pool, a gymnasium, and other allied facilities.",
+    "required_words": ["facilities", "cinec"]
+  },
+  {
+    "response_type": "cinec13_2",
+    "user_input": ["What", "which", "kind", "of", "facility", "does", "cinec", "Campus", "have", "has"],
+    "bot_response": "CINEC Campus is equipped with state-of-the-art classroom facilities, advanced laboratory facilities, technical workshops, ship-in-campus, Learjet aircraft, and ship handling and engine room simulators. It also has residential facilities, a cafeteria, a swimming pool, a gymnasium, and other allied facilities.",
+    "required_words": ["facility", "cinec"]
+  },
+  {
+    "response_type": "cinec14_1",
+    "user_input": ["what", "is", "are", "the", "qualification", "level", "of", "the", "lecturers", "at", "cinec", "campus"],
+    "bot_response": "The lecturers at CINEC Campus are well qualified with postgraduate qualifications and many years of academic and industrial experience.",
+    "required_words": ["qualification", "cinec", "lectures"]
+  },
+  {
+    "response_type": "cinec14_2",
+    "user_input": ["what", "is", "are", "the", "qualification", "qualifications", "level", "of", "the", "lecturers", "at", "cinec", "campus"],
+    "bot_response": "The lecturers at CINEC Campus are well qualified with postgraduate qualifications and many years of academic and industrial experience.",
+    "required_words": ["qualifications", "cinec", "lectures"]
+  },
+  {
+    "response_type": "cinec15_1",
+    "user_input": ["What", "awards", "and", "certifications", "has", "cinec", "received"],
+    "bot_response": "CINEC Campus has received ISO 9001:2015 Quality Management System Certification, the National Quality Award (NQA) for excellence in education services in four consecutive five-year terms (1999, 2004, 2009, and 2014), the Asia Pacific Quality Award for best-in-class in education (2010), the Global Performance Excellence Award - Education Organization (2012), and the Presidential Award for Education (2019).",
+    "required_words": ["awards", "cinec"]
+  },
+  {
+    "response_type": "cinec15_2",
+    "user_input": ["What", "awards", "and", "certifications", "has", "cinec", "received"],
+    "bot_response": "CINEC Campus has received ISO 9001:2015 Quality Management System Certification, the National Quality Award (NQA) for excellence in education services in four consecutive five-year terms (1999, 2004, 2009, and 2014), the Asia Pacific Quality Award for best-in-class in education (2010), the Global Performance Excellence Award - Education Organization (2012), and the Presidential Award for Education (2019).",
+    "required_words": ["certifications", "cinec"]
+  },
+  {
+    "response_type": "cinec16_1",
+    "user_input": ["What", "skills", "does", "do", "cinec", "campus",  "impart", "to", "its", "students"],
+    "bot_response": "CINEC Campus imparts soft skills for character building, personality development, and discipline to cultivate the competence of students to be work-ready in a competitive environment.",
+    "required_words": ["impart", "cinec"]
+  },
+  {
+    "response_type": "cinec16_2",
+    "user_input": ["What", "skills", "does", "do", "cinec", "campus", "imparts", "to", "its", "students"],
+    "bot_response": "CINEC Campus imparts soft skills for character building, personality development, and discipline to cultivate the competence of students to be work-ready in a competitive environment.",
+    "required_words": ["imparts", "cinec"]
+  },
+  {
+    "response_type": "cinec16_3",
+    "user_input": ["What", "skills", "does", "do", "cinec", "campus", "provides", "to", "its", "students"],
+    "bot_response": "CINEC Campus imparts soft skills for character building, personality development, and discipline to cultivate the competence of students to be work-ready in a competitive environment.",
+    "required_words": ["provides", "cinec"]
+  },
+  {
+    "response_type": "cinec16_4",
+    "user_input": ["What", "skills", "does", "do", "cinec", "campus", "provide", "to", "its", "students"],
+    "bot_response": "CINEC Campus imparts soft skills for character building, personality development, and discipline to cultivate the competence of students to be work-ready in a competitive environment.",
+    "required_words": ["provide", "cinec"]
+  },
+  {
+    "response_type": "cinec17_1",
+    "user_input": ["How", "is", "cinec", "campus", "positioned", "in", "the", "international", "arena", "area"],
+    "bot_response": "CINEC Campus positions itself as an institution grooming the next generation to be competent in the international arena with globally recognized qualifications.",
+    "required_words": ["interantional", "cinec"]
   }
 ]

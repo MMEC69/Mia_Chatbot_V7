@@ -146,11 +146,11 @@ def application_msg_parser(user_input):
             speak("Google Mail open now")
             time.sleep(5)
 
-        elif 'time' in response:
+        elif 'current time' in response:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"The time is {strTime}")
 
-        elif 'search' in response:
+        elif 'search_this_69' in response:
             statement = user_input.replace("search", "")
             webbrowser.open_new_tab(statement)
             time.sleep(5)
