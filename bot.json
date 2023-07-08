@@ -839,5 +839,230 @@
     "user_input": ["How", "is", "cinec", "campus", "positioned", "in", "the", "international", "arena", "area"],
     "bot_response": "CINEC Campus positions itself as an institution grooming the next generation to be competent in the international arena with globally recognized qualifications.",
     "required_words": ["interantional", "cinec"]
+  },
+  {
+    "response_type": "cinec18_1",
+    "user_input": ["Which", "countries", "universities", "approve", "cinec", "campus", "programs"],
+    "bot_response": "The programs offered by CINEC Campus are approved by \nthe Government of Sri Lanka \nuniversities in \n\tAustralia \n\tChina \n\tGermany  \n\tUK \n\tUSA \nTAFE College in Australia.",
+    "required_words": ["countries", "cinec", "approve"]
+  },
+  {
+    "response_type": "cinec18_2",
+    "user_input": ["Which", "countries", "universities", "approves", "cinec", "campus", "programs"],
+    "bot_response": "The programs offered by CINEC Campus are approved by \nthe Government of Sri Lanka \nuniversities in \n\tAustralia \n\tChina \n\tGermany  \n\tUK \n\tUSA \nTAFE College in Australia.",
+    "required_words": ["countries", "cinec", "approves"]
+  },
+  {
+    "response_type": "cinec18_3",
+    "user_input": ["Which", "country", "universities", "approve", "cinec", "campus", "programs"],
+    "bot_response": "The programs offered by CINEC Campus are approved by \\nthe Government of Sri Lanka \nuniversities in \n\tAustralia \n\tChina \n\tGermany  \n\tUK \n\tUSA \nTAFE College in Australia.",
+    "required_words": ["country", "cinec", "approve"]
+  },
+  {
+    "response_type": "cinec18_4",
+    "user_input": ["Which", "country", "universities", "approves", "cinec", "campus", "programs"],
+    "bot_response": "The programs offered by CINEC Campus are approved by \nthe Government of Sri Lanka \nuniversities in \n\tAustralia \n\tChina \n\tGermany  \n\tUK \n\tUSA \nTAFE College in Australia.",
+    "required_words": ["country", "cinec", "approves"]
+  },
+  {
+    "response_type": "cinec19_1",
+    "user_input": ["Which", "industries", "does", "do", "cinec", "campus", "support", "through", "vocational", "training", "projects"],
+    "bot_response": "CINEC Campus supports government, private, and foreign organizations through special projects in vocational training around the country.",
+    "required_words": ["vocational", "cinec"]
+  },
+  {
+    "response_type": "cinec20_1",
+    "user_input": ["Which", "companies", "have", "has", "established", "establish", "their", "research", "and", "training", "centers", "at", "cinec", "campus"],
+    "bot_response": "MAS Holdings \nBrandix  \nOrange Electrical-Orel Corporation \nTwo apparel companies \nOne electrical manufacturing company in Sri Lanka",
+    "required_words": ["companies", "cinec"]
+  },
+  {
+    "response_type": "cinec20_2",
+    "user_input": ["Which", "company", "have", "has", "established", "establish", "their", "research", "and", "training", "centers", "at", "cinec", "campus"],
+    "bot_response": "MAS Holdings \nBrandix  \nOrange Electrical-Orel Corporation \nTwo apparel companies \nOne electrical manufacturing company in Sri Lanka",
+    "required_words": ["company", "cinec"]
+  },
+  {
+    "response_type": "cinec20_2",
+    "user_input": ["Which", "companys", "have", "has", "established", "establish", "their", "research", "and", "training", "centers", "at", "cinec", "campus"],
+    "bot_response": "MAS Holdings \nBrandix  \nOrange Electrical-Orel Corporation \nTwo apparel companies \nOne electrical manufacturing company in Sri Lanka",
+    "required_words": ["companys", "cinec"]
+  },
+  {
+    "response_type": "cinec21_1",
+    "user_input": ["How", "are", "practical", "sessions", "conducted", "at", "cinec", "campus"],
+    "bot_response": "Practical sessions at CINEC Campus are conducted in well-equipped laboratories, providing students with hands-on training.",
+    "required_words": ["practical", "cinec"]
+  },
+  {
+    "response_type": "cinec21_2",
+    "user_input": ["How", "are", "practicals", "sessions", "conducted", "at", "cinec", "campus"],
+    "bot_response": "Practical sessions at CINEC Campus are conducted in well-equipped laboratories, providing students with hands-on training.",
+    "required_words": ["practicals", "cinec"]
+  },
+  {
+    "response_type": "cinec22_1",
+    "user_input": ["is", "does", "do", "industrial", "training", "provided", "to", "students", "at", "cinec", "campus"],
+    "bot_response": "Yes, industrial training is provided to students at CINEC Campus, and facilities are provided for final year student projects to be carried out in research organizations under expert supervision.",
+    "required_words": ["industrial", "cinec"]
+  },
+  {
+    "response_type": "cinec22_2",
+    "user_input": ["is", "does", "do", "industry", "training", "provided", "to", "students", "at", "cinec", "campus"],
+    "bot_response": "Yes, industrial training is provided to students at CINEC Campus, and facilities are provided for final year student projects to be carried out in research organizations under expert supervision.",
+    "required_words": ["industry", "cinec"]
+  },
+  {
+    "response_type": "cinec22_3",
+    "user_input": ["is", "does", "do", "practical", "training", "provided", "to", "students", "at", "cinec", "campus"],
+    "bot_response": "Yes, industrial training is provided to students at CINEC Campus, and facilities are provided for final year student projects to be carried out in research organizations under expert supervision.",
+    "required_words": ["practical", "cinec"]
+  },
+  {
+    "response_type": "cinec23_1",
+    "user_input": ["Has", "cinec", "campus", "received", "any", "quality", "management", "certifications", "certification"],
+    "bot_response": "Yes, CINEC Campus is enriched with ISO 9001:2015 Quality Management System Certification.",
+    "required_words": ["certifications", "cinec"]
+  },
+  {
+    "response_type": "cinec23_2",
+    "user_input": ["Has", "cinec", "campus", "received", "any", "quality", "management", "certifications", "certification"],
+    "bot_response": "Yes, CINEC Campus is enriched with ISO 9001:2015 Quality Management System Certification.",
+    "required_words": ["certification", "cinec"]
+  },
+  {
+    "response_type": "cinec23_3",
+    "user_input": ["Has", "cinec", "campus", "received", "any", "quality", "management", "certified"],
+    "bot_response": "Yes, CINEC Campus is enriched with ISO 9001:2015 Quality Management System Certification.",
+    "required_words": ["certified", "cinec"]
+  },
+  {
+    "response_type": "cinec23_4",
+    "user_input": ["Has", "cinec", "campus", "received", "any", "quality", "management", "certifyed"],
+    "bot_response": "Yes, CINEC Campus is enriched with ISO 9001:2015 Quality Management System Certification.",
+    "required_words": ["certifyed", "cinec"]
+  },
+  {
+    "response_type": "cinec24_1",
+    "user_input": ["How", "many", "times", "has", "have", "cinec", "campus", "won", "win", "the", "national", "quality", "award", "nqa"],
+    "bot_response": "CINEC Campus has nwon the National Quality Award (NQA) for excellence in education services in four consecutive five-year terms: 1999, 2004, 2009, and 2014.",
+    "required_words": ["nqa", "cinec"]
+  },
+  {
+    "response_type": "cinec24_2",
+    "user_input": ["How", "many", "times", "has", "have", "cinec", "campus", "won", "win", "the", "national", "quality", "award", "nqa"],
+    "bot_response": "CINEC Campus has nwon the National Quality Award (NQA) for excellence in education services in four consecutive five-year terms: 1999, 2004, 2009, and 2014.",
+    "required_words": ["national", "quality", "award", "cinec"]
+  },
+  {
+    "response_type": "cinec24_2",
+    "user_input": ["How", "many", "times", "has", "have", "cinec", "campus", "won", "win", "the", "national", "quality", "award", "nqa"],
+    "bot_response": "CINEC Campus has nwon the National Quality Award (NQA) for excellence in education services in four consecutive five-year terms: 1999, 2004, 2009, and 2014.",
+    "required_words": ["national", "quality", "cinec"]
+  },
+  {
+    "response_type": "cinec25_1",
+    "user_input": ["How", "many", "times", "has", "have", "cinec", "campus", "won", "win", "the", "national", "quality", "award", "nqa"],
+    "bot_response": "In 2010, CINEC Campus won the Asia Pacific Quality Award for best-in-class in education. \nIn 2012, CINEC Campus was awarded the 'World Class' - Global Performance Excellence Award - Education Organization. \nCINEC Campus achieved the prestigious Presidential Award for Education in 2019.",
+    "required_words": ["award", "cinec"]
+  },
+  {
+    "response_type": "cinec25_2",
+    "user_input": ["How", "many", "times", "has", "have", "cinec", "campus", "won", "win", "the", "national", "quality", "awards", "nqa"],
+    "bot_response": "In 2010, CINEC Campus won the Asia Pacific Quality Award for best-in-class in education. \nIn 2012, CINEC Campus was awarded the 'World Class' - Global Performance Excellence Award - Education Organization. \nCINEC Campus achieved the prestigious Presidential Award for Education in 2019.",
+    "required_words": ["awards", "cinec"]
+  },
+  {
+    "response_type": "cinec25_3",
+    "user_input": ["what", "which", "award", "did", "cinec", "campus", "win", "in", "2010"],
+    "bot_response": "In 2010, CINEC Campus won the Asia Pacific Quality Award for best-in-class in education.",
+    "required_words": ["award", "cinec", "2010"]
+  },
+  {
+    "response_type": "cinec25_4",
+    "user_input": ["what", "which", "awards", "did", "cinec", "campus", "win", "in", "2010"],
+    "bot_response": "In 2010, CINEC Campus won the Asia Pacific Quality Award for best-in-class in education.",
+    "required_words": ["awards", "cinec", "2010"]
+  },
+  {
+    "response_type": "cinec25_5",
+    "user_input": ["what", "which", "award", "did", "cinec", "campus", "win", "in", "2010"],
+    "bot_response": "In 2010, CINEC Campus won the Asia Pacific Quality Award for best-in-class in education.",
+    "required_words": ["award", "cinec", "2012"]
+  },
+  {
+    "response_type": "cinec25_6",
+    "user_input": ["what", "which", "awards", "did", "cinec", "campus", "win", "in", "2012"],
+    "bot_response": "In 2012, CINEC Campus was awarded the 'World Class' - Global Performance Excellence Award - Education Organization.",
+    "required_words": ["awards", "cinec", "2012"]
+  },
+  {
+    "response_type": "cinec25_7",
+    "user_input": ["When", "did", "cinec", "campus", "receive", "received", "receives", "the", "prestigious", "presidential", "award", "for", "education"],
+    "bot_response": "CINEC Campus achieved the prestigious Presidential Award for Education in 2019.",
+    "required_words": ["presidential", "cinec", "2012"]
+  },
+  {
+    "response_type": "cinec26_1",
+    "user_input": ["does", "do", "cinec", "campus", "provide", "soft", "skills", "training"],
+    "bot_response": "Yes, CINEC Campus imparts soft skills training for character building, personality development, and discipline to cultivate competence in students for a competitive environment.",
+    "required_words": ["skills", "cinec", "provide"]
+  },
+  {
+    "response_type": "cinec26_2",
+    "user_input": ["does", "do", "cinec", "campus", "provides", "soft", "skills", "training"],
+    "bot_response": "Yes, CINEC Campus imparts soft skills training for character building, personality development, and discipline to cultivate competence in students for a competitive environment.",
+    "required_words": ["skills", "cinec", "provides"]
+  },
+  {
+    "response_type": "cinec26_1",
+    "user_input": ["How", "does", "do", "cinec", "campus", "position", "itself", "in", "the", "international", "arena"],
+    "bot_response": "CINEC Campus positions itself as an institution grooming the next generation to be competent in the international arena with globally recognized qualifications.",
+    "required_words": ["international", "cinec", "position"]
+  },
+  {
+    "response_type": "cinec26_2",
+    "user_input": ["How", "does", "do", "cinec", "campus", "positions", "itself", "in", "the", "international", "arena"],
+    "bot_response": "CINEC Campus positions itself as an institution grooming the next generation to be competent in the international arena with globally recognized qualifications.",
+    "required_words": ["international", "cinec", "positions"]
+  },
+  {
+    "response_type": "cinec27_1",
+    "user_input": ["What", "are", "the", "core", "academic", "faculties", "at", "cinec", "campus"],
+    "bot_response": "The core academic faculties at CINEC Campus include Maritime Science, Marine Engineering, Engineering and Technology, Management and Social Sciences, Humanities and Education, and Health Science.",
+    "required_words": ["academic", "cinec", "faculties"]
+  },
+  {
+    "response_type": "cinec27_2",
+    "user_input": ["What", "are", "the", "core", "academic", "faculty", "at", "cinec", "campus"],
+    "bot_response": "The core academic faculties at CINEC Campus include Maritime Science, Marine Engineering, Engineering and Technology, Management and Social Sciences, Humanities and Education, and Health Science.",
+    "required_words": ["academic", "cinec", "faculty"]
+  },
+  {
+    "response_type": "cinec27_3",
+    "user_input": ["What", "are", "the", "core", "academic", "faculties", "at", "cinec", "campus"],
+    "bot_response": "The core academic faculties at CINEC Campus include Maritime Science, Marine Engineering, Engineering and Technology, Management and Social Sciences, Humanities and Education, and Health Science.",
+    "required_words": ["core", "cinec", "faculties"]
+  },
+  {
+    "response_type": "cinec27_4",
+    "user_input": ["What", "are", "the", "core", "academic", "faculty", "at", "cinec", "campus"],
+    "bot_response": "The core academic faculties at CINEC Campus include Maritime Science, Marine Engineering, Engineering and Technology, Management and Social Sciences, Humanities and Education, and Health Science.",
+    "required_words": ["core", "cinec", "faculty"]
+  },
+  {
+    "response_type": "cinec28_1",
+    "user_input": ["How", "does", "do", "cinec", "campus", "emphasize", "industry", "requirements"],
+    "bot_response": "CINEC Campus emphasizes industry requirements by providing hands-on training and research opportunities to support local and international industries.",
+    "required_words": ["industry", "cinec", "requirements"]
+  },
+  {
+    "response_type": "cinec28_2",
+    "user_input": ["How", "does", "do", "cinec", "campus", "emphasize", "industry", "requirement"],
+    "bot_response": "CINEC Campus emphasizes industry requirements by providing hands-on training and research opportunities to support local and international industries.",
+    "required_words": ["industry", "cinec", "requirement"]
+  },
+  {
+    "remider": "reminder pawan part from 25 write"
   }
 ]
