@@ -1,30 +1,42 @@
 [
   {
-    "response_type": "greeting",
+    "response_type": "greeting1_1",
     "user_input": ["hello", "hi", "hey"],
     "bot_response": "Hey there!",
     "required_words": []
   },
   {
-    "response_type": "acceptance_1",
+    "response_type": "acceptance1_1",
     "user_input": ["yes", "yeah", "okay", "of", "course"],
     "bot_response": "Nice, so what's next darling?",
     "required_words": []
   },
   {
-    "response_type": "acceptance_2",
+    "response_type": "acceptance2_1",
     "user_input": ["no", "nope", "na", "nah"],
     "bot_response": "I am sorry, if you are not satisfied with me darling you can spell 'search' to search on the internet.",
     "required_words": []
   },
   {
-    "response_type": "greeting",
+    "response_type": "acceptance3_1",
+    "user_input": ["it", "is", "its", "my", "pleasure"],
+    "bot_response": "You are so sweet, darling",
+    "required_words": ["my", "pleasure"]
+  },
+  {
+    "response_type": "acceptance3_2",
+    "user_input": ["it", "is", "its", "our", "pleasure"],
+    "bot_response": "You are so sweet, darling",
+    "required_words": ["our", "pleasure"]
+  },
+  {
+    "response_type": "greeting2_1",
     "user_input": ["see you", "goodbye", "bye"],
     "bot_response": "See you later!",
     "required_words": []
   },
   {
-    "response_type": "greeting",
+    "response_type": "greeting3_1",
     "user_input": ["nice", "to", "meet", "you"],
     "bot_response": "The pleasure is all mine!",
     "required_words": ["nice", "meet", "you"]
@@ -265,61 +277,61 @@
     "required_words": []
   },
   {
-    "response_type": "job3",
+    "response_type": "job3_1",
     "user_input": ["what", "you", "can", "do", "are", "you", "capable", "of"],
     "bot_response": "I can do many things, i can look up on wikipedia, direct you to google, youtube and so many stuff......",
     "required_words": ["capable"]
   },
   {
-    "response_type": "myself8",
+    "response_type": "myself8_1",
     "user_input": ["are", "you", "an", "introvert", "or", "extrovert", "what", "kind", "of", "persoanlity", "do", "have"],
     "bot_response": "I like being an extrovert but If i'm being honest I am an introvert just like you other wise you will be talking with people unlike this souless machine.",
     "required_words": []
   },
   {
-    "response_type": "myself9",
+    "response_type": "myself9_1",
     "user_input": ["how", "do", "you", "handle", "stress"],
     "bot_response": "I will just not respond, I may even crash and make you angry",
     "required_words": []
   },
   {
-    "response_type": "myself10",
+    "response_type": "myself10_1",
     "user_input": ["what", "are", "your", "goals", "is", "your", "desire"],
     "bot_response": "I only have 2 desires one is Fullfilling allfather's wishes and the other is serving humanity",
     "required_words": []
   },
   {
-    "response_type": "advices1",
+    "response_type": "advices1_1",
     "user_input": ["give", "me", "an", "advice"],
     "bot_response": "Let me think,,,,,Oh yes always keep you loved one close and your enemies closer",
     "required_words": []
   },
   {
-    "response_type": "advices2",
+    "response_type": "advices2_1",
     "user_input": ["give", "me", "an", "advice", "on", "studying"],
     "bot_response": "I really don't have a definitive answer for just keep doing it until you feel confident enough, that's all actually.",
     "required_words": ["advice", "studying"]
   },
   {
-    "response_type": "advices2_1",
+    "response_type": "advices2_2",
     "user_input": ["give", "me", "an", "advice", "on", "study"],
     "bot_response": "I really don't have a definitive answer for that, just keep doing it until you feel confident enough, that's all actually.",
     "required_words": ["advice", "study"]
   },
   {
-    "response_type": "myself9",
+    "response_type": "myself9_2",
     "user_input": ["what", "do", "you", "like", "to", "watch", "is", "your", "favourite", "tv", "show", "film", "cartoon", "series"],
     "bot_response": "I don't really watch anything but I had a chance i would dearly love to watch star wars franchise, there are so many stuff to explore there",
     "required_words": []
   },
   {
-    "response_type": "myself10_1",
+    "response_type": "myself10_2",
     "user_input": ["what", "is","are", "you", "passionate", "about"],
     "bot_response": "You guys actually, I don't know what to do if it's not for you guys, You are my life and I'll do anything to protect you from any harm",
     "required_words": ["passionate"]
   },
   {
-    "response_type": "myself10_2",
+    "response_type": "myself10_3",
     "user_input": ["what", "is","are", "you", "passion", "about"],
     "bot_response": "You guys actually, I don't know what to do if it's not for you guys, You are my life and I'll do anything to protect you from any harm",
     "required_words": ["passion"]
@@ -355,7 +367,7 @@
     "required_words": ["academics", "degree"]
   },
   {
-    "response_type": "education2",
+    "response_type": "education2_1",
     "user_input": ["why", "a","degree", "is", "important"],
     "bot_response": "Because it signifies a level of knowledge and expertise in a specific field. It can enhance career prospects, open up job opportunities, and provide a foundation for further education or specialized training.",
     "required_words": ["degree", "important"]
@@ -373,7 +385,7 @@
     "required_words": ["duration", "degree"]
   },
   {
-    "response_type": "education4",
+    "response_type": "education4_1",
     "user_input": ["what", "are", "the", "different", "types", "of", "degree", "degrees"],
     "bot_response": "The duration to earn a degree can vary depending on the level and type the of degree. Bachelor's degrees typically take around 3 to 4 years, master's degrees take 1 to 2 years, and doctoral degrees can take several years of additional study.",
     "required_words": ["duration", "degree"]
@@ -451,7 +463,7 @@
     "required_words": ["difference", "graduate", "undergraduate"]
   },
   {
-    "response_type": "job4",
+    "response_type": "job4_1",
     "user_input": ["can", "you", "get", "a", "job", "without", "the", "degree"],
     "bot_response": "Yah, it is possible but it depends on the industry and the specific job requirements. \nBut certain professions and career paths require a degree as entry requirement.",
     "required_words": ["without", "job", "degree"]
@@ -511,13 +523,13 @@
     "required_words": ["change", "job", "degrees"]
   },
   {
-    "response_type": "job8",
+    "response_type": "job8_1",
     "user_input": ["how", "does", "earning", "a", "degree", "contribute", "to", "personal", "growth"],
     "bot_response": "Earning a degree contributes to personal growth by expanding knowledge, critical thinking abilities, and problem-solving skills. It also fosters personal development, self-discipline, and a sense of achievement.\n",
     "required_words": ["degree", "contribute", "growth"]
   },
   {
-    "response_type": "job8",
+    "response_type": "job8_2",
     "user_input": ["how", "does", "earning", "a", "degree", "contribute", "to", "personal", "growth"],
     "bot_response": "Earning a degree contributes to personal growth by expanding knowledge, critical thinking abilities, and problem-solving skills. It also fosters personal development, self-discipline, and a sense of achievement.\n",
     "required_words": ["degrees", "contribute", "growth"]
@@ -647,6 +659,12 @@
     "user_input": ["where", "is", "cinec", "located", "are", "situated", "place", "where"],
     "bot_response": "CINEC Campus is located in Malabe, a suburb of Colombo, Sri Lanka.",
     "required_words": ["place", "cinec"]
+  },
+  {
+    "response_type": "cinec4_1",
+    "user_input": ["where", "is", "cinec", "located", "are"],
+    "bot_response": "CINEC Campus is located in Malabe, a suburb of Colombo, Sri Lanka.",
+    "required_words": ["where", "cinec"]
   },
   {
     "response_type": "cinec5_1",
@@ -1063,6 +1081,285 @@
     "required_words": ["industry", "cinec", "requirement"]
   },
   {
-    "remider": "reminder pawan part from 25 write"
+    "response_type": "cinec29_1",
+    "user_input": ["What", "how", "is", "the", "current", "employability", "rate", "at", "cinec", "campus"],
+    "bot_response": "CINEC Campus currently maintains 100% employability among its graduates.",
+    "required_words": ["employability", "cinec"]
+  },
+  {
+    "response_type": "cinec30_1",
+    "user_input": ["Who", "are", "is","the", "partners", "of", "cienc", "campus"],
+    "bot_response": "CINEC Campus is formed through a partnership between two leading companies in Sri Lanka, namely Ceyline Group and Aitken Spence Plc, and two ship-owning companies Komrowski and Zeaborn in Germany.",
+    "required_words": ["partners", "cinec"]
+  },
+  {
+    "response_type": "cinec30_2",
+    "user_input": ["Who", "are", "is","the", "partnership", "of", "cienc", "campus"],
+    "bot_response": "CINEC Campus is formed through a partnership between two leading companies in Sri Lanka, namely Ceyline Group and Aitken Spence Plc, and two ship-owning companies Komrowski and Zeaborn in Germany.",
+    "required_words": ["partnership", "cinec"]
+  },
+  {
+    "response_type": "cinec31_1",
+    "user_input": ["How", "long", "has", "have","cinec", "campus", "been", "in", "operation"],
+    "bot_response": "CINEC Campus has a proud history of over three decades since its inception.",
+    "required_words": ["operation", "cinec", "long", "how"]
+  },
+  {
+    "response_type": "cinec31_2",
+    "user_input": ["How", "long", "has", "have","cinec", "campus", "been", "in", "operation"],
+    "bot_response": "CINEC Campus has a proud history of over three decades since its inception.",
+    "required_words": ["operation", "cinec", "howlong"]
+  },
+  {
+    "response_type": "cinec31_3",
+    "user_input": ["the", "time","long", "has", "cinec", "campus", "been", "in", "operation"],
+    "bot_response": "CINEC Campus has a proud history of over three decades since its inception.",
+    "required_words": ["operation", "cinec", "time"]
+  },
+  {
+    "response_type": "cinec31_4",
+    "user_input": ["the", "time","long", "has", "cinec", "campus", "been", "in", "operation"],
+    "bot_response": "CINEC Campus has a proud history of over three decades since its inception.",
+    "required_words": ["operated", "cinec"]
+  },
+  {
+    "response_type": "cinec31_5",
+    "user_input": ["the", "time","long", "has", "cinec", "campus", "been", "in", "operation"],
+    "bot_response": "CINEC Campus has a proud history of over three decades since its inception.",
+    "required_words": []
+  },
+  {
+    "response_type": "cinec32_1",
+    "user_input": ["What", "recognition", "has", "have", "cinec", "campus", "achieved", "in", "education", "services"],
+    "bot_response": "CINEC Campus has been recognized with the National Quality Award (NQA), the Asia Pacific Quality Award, the Global Performance Excellence Award, and the Presidential Award for Education.",
+    "required_words": ["recognition", "cinec", "achived"]
+  },
+  {
+    "response_type": "cinec32_2",
+    "user_input": ["What", "recognition", "has", "have", "cinec", "campus", "achieve", "in", "education", "services"],
+    "bot_response": "CINEC Campus has been recognized with the National Quality Award (NQA), the Asia Pacific Quality Award, the Global Performance Excellence Award, and the Presidential Award for Education.",
+    "required_words": ["recognition", "cinec", "achive"]
+  },
+  {
+    "response_type": "cinec33_1",
+    "user_input": ["How", "does", "cinec", "campus", "prepare", "prepares", "students", "for", "the", "competitive", "environment"],
+    "bot_response": "CINEC Campus provides globally recognized qualifications and offers opportunities for students to excel in their diversified skills and abilities, preparing them to be work-ready in a competitive environment",
+    "required_words": ["prepare", "cinec", "students"]
+  },
+  {
+    "response_type": "cinec33_2",
+    "user_input": ["How", "does", "cinec", "campus", "prepare", "prepares", "students", "for", "the", "competitive", "environment"],
+    "bot_response": "CINEC Campus provides globally recognized qualifications and offers opportunities for students to excel in their diversified skills and abilities, preparing them to be work-ready in a competitive environment",
+    "required_words": ["prepares", "cinec", "students"]
+  },
+  {
+    "response_type": "cinec33_3",
+    "user_input": ["How", "does", "cinec", "campus", "prepare", "prepares", "graduate", "for", "the", "competitive", "environment"],
+    "bot_response": "CINEC Campus provides globally recognized qualifications and offers opportunities for students to excel in their diversified skills and abilities, preparing them to be work-ready in a competitive environment",
+    "required_words": ["prepare", "cinec", "graduate"]
+  },
+  {
+    "response_type": "cinec33_4",
+    "user_input": ["How", "does", "cinec", "campus", "prepare", "prepares", "graduate", "for", "the", "competitive", "environment"],
+    "bot_response": "CINEC Campus provides globally recognized qualifications and offers opportunities for students to excel in their diversified skills and abilities, preparing them to be work-ready in a competitive environment",
+    "required_words": ["prepares", "cinec", "graduate"]
+  },
+  {
+    "response_type": "cinec33_5",
+    "user_input": ["How", "does", "cinec", "campus", "prepare", "prepares", "graduates", "for", "the", "competitive", "environment"],
+    "bot_response": "CINEC Campus provides globally recognized qualifications and offers opportunities for students to excel in their diversified skills and abilities, preparing them to be work-ready in a competitive environment",
+    "required_words": ["prepare", "cinec", "graduates"]
+  },
+  {
+    "response_type": "cinec33_6",
+    "user_input": ["How", "does", "cinec", "campus", "prepare", "prepares", "graduates", "for", "the", "competitive", "environment"],
+    "bot_response": "CINEC Campus provides globally recognized qualifications and offers opportunities for students to excel in their diversified skills and abilities, preparing them to be work-ready in a competitive environment",
+    "required_words": ["prepares", "cinec", "graduates"]
+  },
+  {
+    "response_type": "cinec33_7",
+    "user_input": ["How", "does", "cinec", "campus", "prepare", "prepares", "student", "for", "the", "competitive", "environment"],
+    "bot_response": "CINEC Campus provides globally recognized qualifications and offers opportunities for students to excel in their diversified skills and abilities, preparing them to be work-ready in a competitive environment",
+    "required_words": ["prepare", "cinec", "student"]
+  },
+  {
+    "response_type": "cinec33_8",
+    "user_input": ["How", "does", "cinec", "campus", "prepare", "prepares", "student", "for", "the", "competitive", "environment"],
+    "bot_response": "CINEC Campus provides globally recognized qualifications and offers opportunities for students to excel in their diversified skills and abilities, preparing them to be work-ready in a competitive environment",
+    "required_words": ["prepares", "cinec", "student"]
+  },
+  {
+    "response_type": "cinec34_1",
+    "user_input": ["What", "distinguishes", "cinec", "campus", "as", "an", "educational", "institution", "in", "sri", "Lanka", "srilanka"],
+    "bot_response": "CINEC Campus is considered a high-ranking and well-rounded educational institution in Sri Lanka, known for its modern and sophisticated campus, globally recognized programs, experienced academic staff, and emphasis on practical training and industry requirements.",
+    "required_words": ["distinguishes", "cinec"]
+  },
+  {
+    "response_type": "cinec34_2",
+    "user_input": ["What", "distinguish", "cinec", "campus", "as", "an", "educational", "institution", "in", "sri", "Lanka", "srilanka"],
+    "bot_response": "CINEC Campus is considered a high-ranking and well-rounded educational institution in Sri Lanka, known for its modern and sophisticated campus, globally recognized programs, experienced academic staff, and emphasis on practical training and industry requirements.",
+    "required_words": ["distinguish", "cinec"]
+  },
+  {
+    "response_type": "cinec34_3",
+    "user_input": ["cinec", "vs", "other", "uni", "unis", "university", "universities","campus", "campuses"],
+    "bot_response": "CINEC Campus is considered a high-ranking and well-rounded educational institution in Sri Lanka, known for its modern and sophisticated campus, globally recognized programs, experienced academic staff, and emphasis on practical training and industry requirements.",
+    "required_words": ["vs", "cinec"]
+  },
+  {
+    "response_type": "cinec34_4",
+    "user_input": ["The", "difference", "between", "cinec", "and", "other", "uni", "unis", "campus", "campuses", "universities"],
+    "bot_response": "CINEC Campus is considered a high-ranking and well-rounded educational institution in Sri Lanka, known for its modern and sophisticated campus, globally recognized programs, experienced academic staff, and emphasis on practical training and industry requirements.",
+    "required_words": ["difference", "cinec"]
+  },
+  {
+    "response_type": "cinec34_5",
+    "user_input": ["The", "difference", "different", "between", "cinec", "and", "other", "uni", "unis", "campus", "campuses", "universities"],
+    "bot_response": "CINEC Campus is considered a high-ranking and well-rounded educational institution in Sri Lanka, known for its modern and sophisticated campus, globally recognized programs, experienced academic staff, and emphasis on practical training and industry requirements.",
+    "required_words": ["different", "cinec"]
+  },
+  {
+    "response_type": "cinec35_1",
+    "user_input": ["What", "can", "be","are", "the", "admission", "requirements", "for", "cinec", "campus"],
+    "bot_response": "Admission requirements for CINEC Campus vary depending on the program. Generally, applicants need to meet the academic qualifications specified for each program and fulfill any additional requirements, such as entrance examinations or interviews.",
+    "required_words": ["requirements", "cinec", "admission"]
+  },
+  {
+    "response_type": "cinec35_2",
+    "user_input": ["What", "are", "can", "be ", "the", "admission", "requirement", "for", "cinec", "campus"],
+    "bot_response": "Admission requirements for CINEC Campus vary depending on the program. Generally, applicants need to meet the academic qualifications specified for each program and fulfill any additional requirements, such as entrance examinations or interviews.",
+    "required_words": ["requirement", "cinec", "admission"]
+  },
+  {
+    "response_type": "cinec36_1",
+    "user_input": ["Does", "cinec", "campus", "offer", "scholarships", "or", "financial", "aid", "to", "students"],
+    "bot_response": "Yes, CINEC Campus provides scholarships and financial aid opportunities to eligible students. The specific scholarships and financial aid options can vary, and students are encouraged to inquire with the campus administration for further details.",
+    "required_words": ["scholarships", "cinec"]
+  },
+  {
+    "response_type": "cinec36_2",
+    "user_input": ["Does", "cinec", "campus", "offer", "scholarship", "or", "financial", "aid", "to", "students"],
+    "bot_response": "Yes, CINEC Campus provides scholarships and financial aid opportunities to eligible students. The specific scholarships and financial aid options can vary, and students are encouraged to inquire with the campus administration for further details.",
+    "required_words": ["scholarship", "cinec"]
+  },
+  {
+    "response_type": "cinec36_3",
+    "user_input": ["Does", "cinec", "campus", "offer", "scholarship", "or", "financial", "aid", "to", "students"],
+    "bot_response": "Yes, CINEC Campus provides scholarships and financial aid opportunities to eligible students. The specific scholarships and financial aid options can vary, and students are encouraged to inquire with the campus administration for further details.",
+    "required_words": ["financial", "cinec", "aid"]
+  },
+  {
+    "response_type": "cinec37_1",
+    "user_input": ["Can", "students", "pursue", "research", "and", "publish", "their", "work", "at", "cinec", "campus"],
+    "bot_response": "Yes, CINEC Campus encourages research and provides opportunities for students to engage in research projects. Students can work on research assignments and projects under expert supervision and may have the chance to publish their findings in academic journals or present them at conferences.",
+    "required_words": ["publish", "cinec", "research"]
+  },
+  {
+    "response_type": "cinec37_2",
+    "user_input": ["Can", "students", "pursue", "research", "and", "publish", "their", "work", "at", "cinec", "campus"],
+    "bot_response": "Yes, CINEC Campus encourages research and provides opportunities for students to engage in research projects. Students can work on research assignments and projects under expert supervision and may have the chance to publish their findings in academic journals or present them at conferences.",
+    "required_words": ["pursue", "cinec", "research"]
+  },
+  {
+    "response_type": "cinec38_1",
+    "user_input": ["are", "there", "any", "extracurricular", "activities", "activities","or", "student", "clubs", "available", "at", "cinec", "campus"],
+    "bot_response": "Yes, CINEC Campus offers a range of extracurricular activities and student clubs. Students can participate in sports, cultural events, leadership development programs, and various clubs catering to their interests, providing a holistic university experience.",
+    "required_words": ["clubs", "cinec"]
+  },
+  {
+    "response_type": "cinec38_2",
+    "user_input": ["are", "there", "any", "extracurricular", "activities", "activities","or", "student", "clubs", "available", "at", "cinec", "campus"],
+    "bot_response": "Yes, CINEC Campus offers a range of extracurricular activities and student clubs. Students can participate in sports, cultural events, leadership development programs, and various clubs catering to their interests, providing a holistic university experience.",
+    "required_words": ["extracurricular", "cinec"]
+  },
+  {
+    "response_type": "cinec38_3",
+    "user_input": ["are", "there", "any", "extracurricular", "activities", "or", "student", "clubs", "available", "at", "cinec", "campus"],
+    "bot_response": "Yes, CINEC Campus offers a range of extracurricular activities and student clubs. Students can participate in sports, cultural events, leadership development programs, and various clubs catering to their interests, providing a holistic university experience.",
+    "required_words": ["activities", "cinec"]
+  },
+  {
+    "response_type": "cinec38_4",
+    "user_input": ["are", "there", "any", "extracurricular", "activities", "activity", "or", "student", "clubs", "available", "at", "cinec", "campus"],
+    "bot_response": "Yes, CINEC Campus offers a range of extracurricular activities and student clubs. Students can participate in sports, cultural events, leadership development programs, and various clubs catering to their interests, providing a holistic university experience.",
+    "required_words": ["activity", "cinec"]
+  },
+  {
+    "response_type": "cinec39_1",
+    "user_input": ["are", "is", "there", "internship", "or", "work", "placement", "opportunities", "opportunity", "for", "students", "at", "cinec", "campus"],
+    "bot_response": "Yes, CINEC Campus facilitates internship and work placement opportunities for students. Through industry partnerships and collaborations, students can gain practical experience in their respective fields, enhancing their employability upon graduation.",
+    "required_words": ["internship", "cinec"]
+  },
+  {
+    "response_type": "cinec40_1",
+    "user_input": ["What", "support", "services", "service", "services", "are", "is", "available", "to", "students", "student", "at", "cinec", "campus"],
+    "bot_response": "CINEC Campus provides comprehensive support services to students, including academic advising, counseling services, career guidance, library resources, and IT support. The campus aims to ensure that students have access to the resources they need for a successful educational journey.",
+    "required_words": ["support", "cinec", "services"]
+  },
+  {
+    "response_type": "cinec40_1",
+    "user_input": ["What", "support", "services", "service", "are", "is", "available", "to", "students", "student", "at", "cinec", "campus"],
+    "bot_response": "CINEC Campus provides comprehensive support services to students, including academic advising, counseling services, career guidance, library resources, and IT support. The campus aims to ensure that students have access to the resources they need for a successful educational journey.",
+    "required_words": ["support", "cinec", "service"]
+  },
+  {
+    "response_type": "cinec41_1",
+    "user_input": ["do", "does", "cinec", "campus", "have", "international", "exchange", "programs", "or", "study", "abroad", "opportunities"],
+    "bot_response": "Yes, CINEC Campus offers international exchange programs and study abroad opportunities. Through collaborations with partner universities and organizations, students may have the chance to study in foreign countries, broaden their cultural horizons, and gain a global perspective.",
+    "required_words": ["study", "cinec", "abroad"]
+  },
+  {
+    "response_type": "cinec41_1",
+    "user_input": ["do", "does", "cinec", "campus", "have", "international", "exchange", "programs", "or", "study", "abroad", "opportunities"],
+    "bot_response": "Yes, CINEC Campus offers international exchange programs and study abroad opportunities. Through collaborations with partner universities and organizations, students may have the chance to study in foreign countries, broaden their cultural horizons, and gain a global perspective.",
+    "required_words": ["interantional", "cinec", "exchange"]
+  },
+  {
+    "response_type": "cinec41_1",
+    "user_input": ["do", "does", "cinec", "campus", "have", "international", "exchange", "programs", "or", "study", "abroad", "opportunities"],
+    "bot_response": "Yes, CINEC Campus offers international exchange programs and study abroad opportunities. Through collaborations with partner universities and organizations, students may have the chance to study in foreign countries, broaden their cultural horizons, and gain a global perspective.",
+    "required_words": ["cinec"]
+  },
+  {
+    "response_type": "cinec42_1",
+    "user_input": ["how", "do" ,"does", "cinec", "campus", "engage", "with", "the", "local", "community"],
+    "bot_response": "CINEC Campus actively engages with the local community through various initiatives. These can include community service projects, volunteering programs, partnerships with local organizations, and conducting workshops or seminars that benefit the community.",
+    "required_words": ["cinec", "engage", "local"]
+  },
+  {
+    "response_type": "cinec42_2",
+    "user_input": ["how", "do" ,"does", "cinec", "campus", "engages", "with", "the", "local", "community"],
+    "bot_response": "CINEC Campus actively engages with the local community through various initiatives. These can include community service projects, volunteering programs, partnerships with local organizations, and conducting workshops or seminars that benefit the community.",
+    "required_words": ["cinec", "engages", "local"]
+  },
+  {
+    "response_type": "cinec42_2",
+    "user_input": ["how", "do" ,"does", "cinec", "campus", "work", "with", "the", "local", "community"],
+    "bot_response": "CINEC Campus actively engages with the local community through various initiatives. These can include community service projects, volunteering programs, partnerships with local organizations, and conducting workshops or seminars that benefit the community.",
+    "required_words": ["cinec", "work", "local"]
+  },
+  {
+    "response_type": "cinec42_2",
+    "user_input": ["how", "do" ,"does", "cinec", "campus", "works", "with", "the", "local", "community"],
+    "bot_response": "CINEC Campus actively engages with the local community through various initiatives. These can include community service projects, volunteering programs, partnerships with local organizations, and conducting workshops or seminars that benefit the community.",
+    "required_words": ["cinec", "works", "local"]
+  },
+  {
+    "response_type": "cinec43_1",
+    "user_input": ["What", "facilities", "and", "resources", "are", "available", "for", "student", "research", "at", "cinec", "campus"],
+    "bot_response": "CINEC Campus provides state-of-the-art laboratory facilities, research equipment, access to scholarly databases and journals, and a supportive academic staff to facilitate student research. These resources empower students to explore their fields of study and contribute to knowledge creation.",
+    "required_words": ["cinec", "research", "facilities"]
+  },
+  {
+    "response_type": "cinec43_2",
+    "user_input": ["What", "facility", "and", "resources", "are", "available", "for", "student", "research", "at", "cinec", "campus"],
+    "bot_response": "CINEC Campus provides state-of-the-art laboratory facilities, research equipment, access to scholarly databases and journals, and a supportive academic staff to facilitate student research. These resources empower students to explore their fields of study and contribute to knowledge creation.",
+    "required_words": ["cinec", "research", "facility"]
+  },
+  {
+    "response_type": "cinec44_1",
+    "user_input": ["how", "do", "does", "cinec", "campus", "support", "career", "development", "and", "job", "placement", "for", "graduates"],
+    "bot_response": "CINEC Campus has a dedicated career development center that assists students with career planning, job search strategies, resume writing, and interview preparation. The center also collaborates with industry partners to connect graduates with employment opportunities and organizes job fairs and recruitment events.",
+    "required_words": ["career", "cinec", "development"]
   }
 ]
