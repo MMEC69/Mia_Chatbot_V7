@@ -15,6 +15,7 @@ import json
 import requests
 import pyaudio
 
+
 bot_name = "Mia"
 
 
@@ -30,15 +31,16 @@ def speak(text):
 
 def wishMe():
     hour=datetime.datetime.now().hour
+
     if hour>=0 and hour<12:
-        speak("Hello,Good Morning sweet heart")
-        print("Hello,Good Morning sweet heart")
+        wishing_day = "Hello,Good Morning sweet heart"
+        return(wishing_day)
     elif hour>=12 and hour<18:
-        speak("Hello,Good Afternoon sweet heart")
-        print("Hello,Good Afternoon sweet heart")
+        wishing_day = "Hello,Good Afternoon sweet heart"
+        return(wishing_day)
     else:
-        speak("Hello,Good Evening sweet heart")
-        print("Hello,Good Evening sweet heart")
+        wishing_day = "Hello,Good Evening sweet heart"
+        return(wishing_day)
 
 #wishMe()
 
@@ -116,6 +118,8 @@ def get_response(input_string):
 
     return random_responses.random_string()
 
+
+
 def application_msg_parser(user_input):
 #hile True:
     #print("You: ")
@@ -125,39 +129,51 @@ def application_msg_parser(user_input):
 
         if 'Youtube opening' in response:
             webbrowser.open_new_tab("https://www.youtube.com")
-            speak("youtube is open now")
+            #speak("youtube is open now")
+            return ("Youtube is opened dear,")
             time.sleep(5)
 
+        elif 'call_wishme' in response:
+            return(wishMe())
+
         elif 'wikipedia' in response:
-            speak('Searching Wikipedia...')
+            #speak('Searching Wikipedia...')
             user_input = user_input.replace("wikipedia", "")
             results = wikipedia.summary(user_input, sentences=3)
-            speak("According to Wikipedia")
-            speak(results)
+            #speak("According to Wikipedia")
+            #speak(results)
             return(results)
 
         elif 'github opening' in response:
             webbrowser.open_new_tab("https://www.github.com")
-            speak("Github is open now")
+            return ("Github is opened,")
             time.sleep(5)
 
         elif 'gmail opening' in response:
             webbrowser.open_new_tab("gmail.com")
-            speak("Google Mail open now")
+            return("Google Mail is opened,")
             time.sleep(5)
 
         elif 'current time' in response:
-            strTime = datetime.datetime.now().strftime("%H:%M:%S")
-            speak(f"The time is {strTime}")
+            now_hour = datetime.datetime.now().hour
+            now_minute = datetime.datetime.now().minute
+            now_second = datetime.datetime.now().second
+            #strTime = datetime.datetime.now().strftime("%H:%M:%S")
+
+            if (now_hour < 12):
+                return (f"The time is {now_hour}:{now_minute} AM")
+            else:
+                return (f"The time is {now_hour}:{now_minute} PM")
+            #return(f"The time is {strTime}")
 
         elif 'search_this_69' in response:
             statement = user_input.replace("search", "")
-            webbrowser.open_new_tab(statement)
+            webbrowser.open_new_tab(user_input)
             time.sleep(5)
 
         elif 'question' in response:
             statement = user_input.replace("question", "")
-            webbrowser.open_new_tab(statement)
+            webbrowser.open_new_tab(user_input)
             time.sleep(5)
 
         #elif 'question' in response:
@@ -170,38 +186,39 @@ def application_msg_parser(user_input):
             #speak(answer)
             #print(answer)
 
-        elif "weather" in response:
-            api_key = "3e826e0f9e9479c77abab338620624bd"
-            base_url = "https://api.openweathermap.org/data/2.5/weather?"
-            speak("what is the city name")
+        #elif "weather" in response:
+            #api_key = "3e826e0f9e9479c77abab338620624bd"
+            #base_url = "https://api.openweathermap.org/data/2.5/weather?"
+            #speak("what is the city name")
             #city_name = input()
-            city_name = takeCommand()
-            complete_url = base_url + "appid=" + api_key + "&q=" + city_name
-            response = requests.get(complete_url)
-            x = response.json()
-            if x["cod"] != "404":
-                y = x["main"]
-                current_temperature = y["temp"]
-                current_temperature = current_temperature - 273.15
-                current_temperature = int(current_temperature)
+            #city_name = takeCommand()
+            #city_name = miaAPP.city_name
+            #complete_url = base_url + "appid=" + api_key + "&q=" + city_name
+            #response = requests.get(complete_url)
+            #x = response.json()
+            #if x["cod"] != "404":
+                #y = x["main"]
+                #current_temperature = y["temp"]
+                #current_temperature = current_temperature - 273.15
+                #current_temperature = int(current_temperature)
                 #current_humidiy = y["humidity"]
-                z = x["weather"]
-                weather_description = z[0]["description"]
+                #z = x["weather"]
+                #weather_description = z[0]["description"]
 
-                speak("It will be about " +str(current_temperature) +" Celcius"
-                      "\n And you can say it's a " +
-                      str(weather_description))
-                return ("It will be about " + str(current_temperature) + "Celcius"
+                #speak("It will be about " +str(current_temperature) +" Celcius"
+                #      "\n And you can say it's a " +
+                #     str(weather_description))
+                #return ("It will be about " + str(current_temperature) + "Celcius"
                 # +"\n humidity (in percentage) = " +
                 # str(current_humidiy) +
-                                                                         "\n And you can say it's a " +
-                        str(weather_description))
+                         #"\n And you can say it's a " +str(weather_description))
+
 
         elif "shut down" in response:
             speak("Ok , your pc will log off in 10 sec make sure to exit from every task bro")
             subprocess.call(["shutdown", "/l"])
 
         else:
-            speak(response)
-            engine.runAndWait()
+            #speak(response)
+            #engine.runAndWait()
             return response

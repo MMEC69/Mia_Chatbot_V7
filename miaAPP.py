@@ -1,4 +1,6 @@
 from tkinter import *
+
+import main
 from main import application_msg_parser, bot_name
 
 BG_PINK = '#FFB6C1'
@@ -76,11 +78,14 @@ class MiaApplication:
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
 
-        msg2 = f"{bot_name}: {application_msg_parser(msg)}\n\n"
+        msg_returned_bot = application_msg_parser(msg)
+        msg2 = f"{bot_name}: {msg_returned_bot}\n\n"
         self.text_widget.configure(cursor="arrow", state=NORMAL)
         self.text_widget.insert(END, msg2)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
 
+        main.speak(msg_returned_bot)
+        main.engine.runAndWait()
         self.text_widget.see(END)
         #This is to make sure chat i s set to the bottom of the conversation
 

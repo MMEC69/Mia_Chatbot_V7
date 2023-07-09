@@ -6,6 +6,12 @@
     "required_words": []
   },
   {
+    "response_type": "greeting1_2",
+    "user_input": ["good", "morning", "afternoon", "evening", "night"],
+    "bot_response": "call_wishme",
+    "required_words": []
+  },
+  {
     "response_type": "acceptance1_1",
     "user_input": ["yes", "yeah", "okay", "of", "course"],
     "bot_response": "Nice, so what's next darling?",
@@ -42,25 +48,25 @@
     "required_words": ["nice", "meet", "you"]
   },
   {
-    "response_type": "question",
+    "response_type": "question1_1",
     "user_input": ["how", "to", "learn", "code", "coding", "apps"],
     "bot_response": "Start by typing: 'How to learn coding' on Google.",
     "required_words": ["learn", "code"]
   },
   {
-    "response_type": "question",
+    "response_type": "question2_1",
     "user_input": ["refund", "how", "can", "I", "get"],
     "bot_response": "We don't offer refunds for free education.",
     "required_words": ["refund", "i"]
   },
   {
-    "response_type": "question",
+    "response_type": "question3_1",
     "user_input": ["how", "are", "you"],
     "bot_response": "I'm great! Thanks for asking.",
     "required_words": ["how", "are", "you"]
   },
   {
-    "response_type": "myself",
+    "response_type": "myself1_1",
     "user_input": ["who","what","are", "you", "is"],
     "bot_response": "I am Mia a chat bot, which was built to serve the humanity.",
     "required_words": []
@@ -103,7 +109,7 @@
   },
   {
     "response_type": "creator",
-    "user_input": ["creator", "who is your creator", "your creator", "who is god"],
+    "user_input": ["creator", "created", "made","who", "is", "your", "god", "you"],
     "bot_response": "I was made by all father himself",
     "required_words": []
   },
